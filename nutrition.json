@@ -1,0 +1,85 @@
+{
+  "timing_windows": {
+    "before_gym": {
+      "title": "Pre-Workout Nutrition (1-2 Hours Before Gym)",
+      "goal": "Maximize energy levels, preserve muscle mass, and increase focus.",
+      "guidelines": "Focus on easily digestible complex carbohydrates and lean protein. Keep fats and fiber low to avoid stomach cramps during training.",
+      "food_options": [
+        "Oatmeal topped with sliced banana and a scoop of whey protein powder.",
+        "3 to 4 whole boiled eggs paired with 2 slices of whole-wheat toast.",
+        "Chicken breast with white rice and a side of light veggies."
+      ]
+    },
+    "during_gym": {
+      "title": "Intra-Workout Nutrition (During Gym)",
+      "goal": "Maintain hydration, sustain training intensity, and delay fatigue.",
+      "guidelines": "If your workout is under 60 minutes, plain water is perfect. For heavy, intense sessions lasting longer than an hour, focus on fast-acting liquids.",
+      "food_options": [
+        "Water with an electrolyte tablet or a pinch of sea salt.",
+        "BCAAs (Branched-Chain Amino Acids) mixed with water.",
+        "A sports drink containing fast-absorbing carbohydrates to replenish glycogen mid-workout."
+      ]
+    },
+    "after_gym": {
+      "title": "Post-Workout Nutrition (Within 1-2 Hours After Gym)",
+      "goal": "Kickstart muscle protein synthesis, speed up recovery, and restock energy.",
+      "guidelines": "Prioritize fast-absorbing proteins to repair muscle tissue alongside fast-acting carbohydrates to replenish spent glycogen.",
+      "food_options": [
+        "A fast-absorbing whey protein shake paired with a ripe banana or rice cakes.",
+        "Lean meat (beef or chicken) paired with sweet potatoes or white rice.",
+        "An egg-white omelet alongside a large bowl of fruit."
+      ]
+    }
+  },
+  "daily_diet_plans": {
+    "monday": {
+      "day_type": "High Carbohydrate / Heavy Training Day (Legs/Squat)",
+      "breakfast": "Oatmeal, 4 egg whites, 1 whole egg, and black coffee.",
+      "lunch": "Lean minced beef, brown rice, and mixed green salad.",
+      "dinner": "Grilled chicken breast, sweet potato mash, and steamed broccoli.",
+      "snacks": "Whey protein shake and a handful of almonds."
+    },
+    "tuesday": {
+      "day_type": "Moderate Carbohydrate / Upper Body Push Day (Bench Press)",
+      "breakfast": "Whole-wheat toast with avocado, 3 scrambled eggs.",
+      "lunch": "Tuna fish salad with olive oil dressing, baked potato.",
+      "dinner": "Turkey breast stir-fry with basmati rice and bell peppers.",
+      "snacks": "Greek yogurt topped with berries and chia seeds."
+    },
+    "wednesday": {
+      "day_type": "Low Carbohydrate / Active Recovery or Rest Day",
+      "breakfast": "Omelet made with 3 eggs, spinach, mushrooms, and feta cheese.",
+      "lunch": "Grilled salmon fillet with a massive green salad and avocado slices.",
+      "dinner": "Lean steak (beef) paired with roasted asparagus and cauliflower rice.",
+      "snacks": "Cottage cheese or a handful of walnuts."
+    },
+    "thursday": {
+      "day_type": "Moderate Carbohydrate / Pull Day (Deadlifts)",
+      "breakfast": "Protein pancakes topped with honey and a side of 3 egg whites.",
+      "lunch": "Chicken breast wrap in a whole-wheat tortilla with shredded lettuce.",
+      "dinner": "Baked white fish (tilapia/cod), quinoa, and steamed zucchini.",
+      "snacks": "Rice cakes spread with peanut butter."
+    },
+    "friday": {
+      "day_type": "High Carbohydrate / Hypertrophy Weak-Point Training",
+      "breakfast": "4 whole eggs, 1 bagel with light cream cheese.",
+      "lunch": "Lean beef burgers (no bun) paired with oven-baked potato wedges.",
+      "dinner": "Grilled chicken breast, whole-wheat pasta with light tomato sauce.",
+      "snacks": "Whey protein shake mixed with skim milk."
+    },
+    "saturday": {
+      "day_type": "Moderate Carbohydrate / Functional Training or Cardio Day",
+      "breakfast": "Smoothie made with milk, protein powder, spinach, oats, and peanut butter.",
+      "lunch": "Turkey meatballs with brown rice pasta.",
+      "dinner": "Baked salmon with a side of mixed roasted root vegetables.",
+      "snacks": "A handful of mixed berries."
+    },
+    "sunday": {
+      "day_type": "Low Carbohydrate / Full Rest and Muscle Recovery Day",
+      "breakfast": "Scrambled eggs with smoked salmon and a side of spinach.",
+      "lunch": "Chicken salad with olive oil, walnuts, and cucumbers.",
+      "dinner": "Grilled lean beef steak with a large side of green beans.",
+      "snacks": "Casein protein shake or greek yogurt before bed."
+    }
+  }
+}

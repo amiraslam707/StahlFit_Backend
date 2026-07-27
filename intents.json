@@ -1,0 +1,369 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "is anyone there", "good morning", "good evening", "sup", "yo", "what's up"],
+      "responses": [
+        "Hello! Ready to crush your fitness goals today?",
+        "Hey! What exercise or nutrition questions can I help you with?"
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": ["who are you", "what are you", "what is this", "what can you do", "tell me about yourself", "who made you", "are you a bot", "are you an ai", "what do you do"],
+      "responses": [
+        "I'm your SteahlFit AI coach — ask me about any muscle group or exercise and I'll pull form cues, common mistakes, rep ranges, and nutrition straight from your training split.",
+        "I'm a hybrid fitness assistant: instant local answers for exercises and nutrition, with AI backup for anything else. What are you training today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye", "i am leaving", "thanks bye", "talk to you later", "gotta go", "see ya"],
+      "responses": [
+        "Keep training hard! Consistency is key.",
+        "Goodbye! Stay disciplined and stay hydrated."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that helps", "awesome thank you", "perfect thanks", "appreciate it", "nice one"],
+      "responses": [
+        "You're very welcome!",
+        "Anytime! Let me know if you need anything else mapped out."
+      ]
+    }
+  ],
+  "muscle_groups": {
+    "chest": {
+      "display_name": "Chest",
+      "nutrition_focus": "Chest day is typically a heavier pushing session — have a carb-and-protein meal (oatmeal and eggs, or chicken and rice) about 1-2 hours before training for energy, then get a fast-absorbing protein source (a shake or lean meat) in within 2 hours after to support muscle repair.",
+      "exercises": [
+        {
+          "key": "bench_press",
+          "name": "Barbell Bench Press",
+          "target_muscle": "Chest (Pectorals), Front Deltoids, Triceps",
+          "equipment": "Barbell, Flat Bench",
+          "steps": [
+            "Lie flat on the bench with your feet planted firmly on the floor.",
+            "Grip the barbell slightly wider than shoulder-width apart.",
+            "Unrack the bar and stabilize it directly over your chest with locked elbows.",
+            "Lower the bar slowly and under control until it lightly touches your mid-chest.",
+            "Push the bar back up explosively by driving your back into the bench and extending your arms."
+          ],
+          "posture": [
+            "Keep a slight, natural arch in your lower back; do not lift your glutes off the bench.",
+            "Retract and depress your shoulder blades into the bench to protect your shoulders.",
+            "Keep your wrists stacked directly over your elbows; do not let your wrists bend backward.",
+            "Tuck your elbows to roughly 45 to 75 degrees rather than flaring to 90, to protect your rotator cuffs."
+          ],
+          "common_mistakes": [
+            "Bouncing the barbell off the chest to gain momentum.",
+            "Lifting the hips and glutes off the bench to force a heavy weight up.",
+            "Allowing the bar to drop too quickly without controlling the eccentric phase."
+          ],
+          "rep_guidance": "For muscle growth, 3 to 4 sets of 8 to 12 reps with 2 minutes of rest. For raw strength, 4 to 5 sets of 3 to 5 reps with 3 minutes of rest."
+        },
+        {
+          "key": "push_up",
+          "name": "Push-Up",
+          "target_muscle": "Chest (Pectorals), Front Deltoids, Triceps, Core",
+          "equipment": "Bodyweight (no equipment needed)",
+          "steps": [
+            "Start in a high plank position with hands slightly wider than shoulder-width apart.",
+            "Keep your body in a straight line from head to heels, engaging your core and glutes.",
+            "Lower your chest toward the floor by bending your elbows to roughly 45 degrees from your torso.",
+            "Push back up to the starting position by extending your arms fully."
+          ],
+          "posture": [
+            "Keep your neck neutral, looking slightly ahead of your hands rather than straight down.",
+            "Don't let your hips sag or pike up — keep a rigid plank throughout.",
+            "Keep your shoulder blades stable; avoid letting them wing out at the top."
+          ],
+          "common_mistakes": [
+            "Flaring the elbows out to a full 90 degrees, which stresses the shoulders.",
+            "Only doing a partial range of motion instead of lowering the chest close to the floor.",
+            "Letting the hips drop first instead of moving the whole body as one unit."
+          ],
+          "rep_guidance": "3 to 4 sets to near failure (often 8 to 20 reps) works well. Add weight on your back once bodyweight reps exceed 20."
+        }
+      ]
+    },
+    "back": {
+      "display_name": "Back",
+      "nutrition_focus": "Back day tends to be volume-heavy with a lot of pulling and grip work — stay well hydrated, and lean on complex carbs before training with a solid protein source (chicken, fish, or a shake) afterward to support recovery of the large back musculature.",
+      "exercises": [
+        {
+          "key": "deadlift",
+          "name": "Conventional Barbell Deadlift",
+          "target_muscle": "Hamstrings, Glutes, Entire Back (Erectors, Lats), Core",
+          "equipment": "Barbell, Weight Plates",
+          "steps": [
+            "Stand with your feet hip-width apart, with the barbell cutting directly across the middle of your feet.",
+            "Hinge at your hips and bend your knees slightly to grip the bar just outside your legs.",
+            "Flatten your back completely, pull your chest up, and drop your hips until your shins touch the bar.",
+            "Drive your feet hard into the floor, pulling the bar up in a straight vertical line close to your body.",
+            "Lock out your hips and knees fully at the top, then reverse the movement under control."
+          ],
+          "posture": [
+            "Your back must stay flat like a tabletop; zero rounding in the lumbar or thoracic spine.",
+            "Keep your shoulders set slightly in front of the bar before you lift.",
+            "Engage your lats completely by imagining you're trying to crush oranges in your armpits."
+          ],
+          "common_mistakes": [
+            "Rounding the lower back under heavy loads, which risks serious spinal injury.",
+            "Starting with the barbell too far forward away from the shins, killing your leverage.",
+            "Hyperextending and leaning backward excessively at the top lockout."
+          ],
+          "rep_guidance": "Because the deadlift heavily taxes your nervous system, keep volume lower: 3 sets of 5 reps, or 1 to 2 heavy sets of 5, is optimal."
+        },
+        {
+          "key": "bent_over_row",
+          "name": "Bent-Over Barbell Row",
+          "target_muscle": "Lats, Rhomboids, Rear Deltoids, Biceps",
+          "equipment": "Barbell, Weight Plates",
+          "steps": [
+            "Stand with feet shoulder-width apart, gripping the barbell just outside your knees.",
+            "Hinge at your hips until your torso is roughly 45 degrees to the floor, with a soft bend in the knees.",
+            "Let the bar hang at arm's length below your shoulders, then pull it up toward your lower ribcage.",
+            "Squeeze your shoulder blades together at the top, then lower the bar back down under control."
+          ],
+          "posture": [
+            "Keep your back flat throughout — no rounding of the lumbar spine while the bar is loaded.",
+            "Keep your core braced to support your spine in the hinged position.",
+            "Pull with your elbows, not your hands — drive your elbows toward the ceiling."
+          ],
+          "common_mistakes": [
+            "Standing too upright, turning the row into a shrug instead of a back exercise.",
+            "Using momentum by jerking the torso up to heave the weight.",
+            "Rounding the lower back under load."
+          ],
+          "rep_guidance": "3 to 4 sets of 8 to 12 reps for muscle growth, resting 90 seconds to 2 minutes between sets."
+        }
+      ]
+    },
+    "biceps": {
+      "display_name": "Biceps",
+      "nutrition_focus": "Arm days like biceps carry lower overall training volume and energy demand than compound days, so a moderate pre-workout snack is enough — the priority is steady protein intake through the day rather than a big pre-workout meal.",
+      "exercises": [
+        {
+          "key": "bicep_curl",
+          "name": "Dumbbell Bicep Curl",
+          "target_muscle": "Biceps Brachii, Brachialis, Forearms",
+          "equipment": "Dumbbells",
+          "steps": [
+            "Stand tall with a dumbbell in each hand, arms hanging extended at your sides, palms facing forward.",
+            "Keeping your upper arms pinned to your torso, exhale and squeeze your biceps to curl the weights upward.",
+            "Continue raising the dumbbells until your biceps are fully contracted at shoulder level.",
+            "Inhale and slowly lower the dumbbells back down with absolute control."
+          ],
+          "posture": [
+            "Keep your elbows locked into your sides; do not let them drift forward or swing out.",
+            "Stand completely still with a braced core; do not use your hips to swing the weights up.",
+            "Maintain a straight neck and relaxed shoulders; do not shrug the weight up with your traps."
+          ],
+          "common_mistakes": [
+            "Swinging the torso back and forth to cheat the weight up through momentum.",
+            "Failing to extend the arms completely at the bottom, robbing the bicep of a full stretch.",
+            "Letting the elbows flare out wide, which recruits the front shoulders instead of the biceps."
+          ],
+          "rep_guidance": "3 sets of 10 to 15 controlled reps, focusing on time under tension."
+        },
+        {
+          "key": "hammer_curl",
+          "name": "Dumbbell Hammer Curl",
+          "target_muscle": "Biceps Brachii, Brachialis, Forearms",
+          "equipment": "Dumbbells",
+          "steps": [
+            "Stand tall holding a dumbbell in each hand with a neutral grip, palms facing your torso.",
+            "Keeping your elbows pinned to your sides, curl the weights up toward your shoulders.",
+            "Squeeze at the top without rotating your wrists — the neutral grip stays neutral throughout.",
+            "Lower the dumbbells back down slowly and under control."
+          ],
+          "posture": [
+            "Keep your elbows locked at your sides the entire rep; don't let them drift forward.",
+            "Avoid swinging your torso to generate momentum.",
+            "Keep your wrists straight and neutral, not bent backward or forward."
+          ],
+          "common_mistakes": [
+            "Using too much weight and turning the movement into a shoulder swing.",
+            "Letting the elbows drift forward, which shifts tension off the biceps.",
+            "Not fully extending the arms at the bottom of each rep."
+          ],
+          "rep_guidance": "3 sets of 10 to 15 reps, prioritizing a controlled tempo over heavy weight."
+        }
+      ]
+    },
+    "triceps": {
+      "display_name": "Triceps",
+      "nutrition_focus": "Like biceps, triceps work is isolation-focused with lower overall energy demand — focus on consistent protein throughout the day, and a light carb source (fruit, rice cakes) beforehand is plenty since you're not moving heavy compound loads.",
+      "exercises": [
+        {
+          "key": "tricep_pushdown",
+          "name": "Cable Tricep Pushdown",
+          "target_muscle": "Triceps Brachii",
+          "equipment": "Cable Machine, Straight or Rope Attachment",
+          "steps": [
+            "Stand facing a high cable pulley with a bar or rope attachment, elbows tucked at your sides.",
+            "Starting with forearms parallel to the floor, push the attachment down by extending your elbows.",
+            "Fully extend your arms at the bottom, squeezing your triceps hard.",
+            "Slowly return to the starting position under control, keeping your elbows fixed."
+          ],
+          "posture": [
+            "Keep your elbows pinned to your ribcage throughout — they shouldn't move forward or backward.",
+            "Keep a slight forward lean from the hips, not the lower back, to stabilize the movement.",
+            "Avoid leaning your whole bodyweight into the movement to push more weight."
+          ],
+          "common_mistakes": [
+            "Letting the elbows flare out or drift away from the body, reducing tricep isolation.",
+            "Using body momentum instead of just the arms.",
+            "Not fully extending at the bottom, cutting the range of motion short."
+          ],
+          "rep_guidance": "3 sets of 10 to 15 reps works well for building tricep size and endurance."
+        },
+        {
+          "key": "overhead_tricep_extension",
+          "name": "Overhead Dumbbell Tricep Extension",
+          "target_muscle": "Triceps Brachii (long head emphasis)",
+          "equipment": "Single Dumbbell",
+          "steps": [
+            "Sit or stand holding one dumbbell with both hands, arms extended straight overhead.",
+            "Keeping your upper arms close to your head, bend your elbows to lower the dumbbell behind your head.",
+            "Lower until your forearms are roughly parallel to the floor, feeling a stretch in the triceps.",
+            "Extend your elbows to press the dumbbell back to the starting overhead position."
+          ],
+          "posture": [
+            "Keep your upper arms stationary and close to your ears throughout the movement.",
+            "Brace your core to avoid arching your lower back as the weight moves behind your head.",
+            "Keep your elbows pointed forward, not flared out to the sides."
+          ],
+          "common_mistakes": [
+            "Letting the elbows flare outward, reducing triceps tension and stressing the shoulders.",
+            "Using too heavy a weight and losing control on the way down.",
+            "Arching the lower back to compensate instead of keeping the core braced."
+          ],
+          "rep_guidance": "3 sets of 10 to 12 reps, using a lighter weight than you'd expect — this is a stretched, vulnerable position for the joint."
+        }
+      ]
+    },
+    "shoulders": {
+      "display_name": "Shoulders",
+      "nutrition_focus": "Shoulder day involves smaller, more injury-prone joints under load — a light-to-moderate pre-workout meal is fine, and post-workout protein remains the priority. Staying hydrated also helps joint mobility during pressing and raising movements.",
+      "exercises": [
+        {
+          "key": "overhead_press",
+          "name": "Barbell Overhead Press (Military Press)",
+          "target_muscle": "Front and Side Deltoids, Triceps, Upper Chest, Core",
+          "equipment": "Barbell, Squat Rack",
+          "steps": [
+            "Set the barbell at upper chest height, grip it just outside shoulder-width, and unrack it across your front shoulders.",
+            "Step back, squeeze your glutes, brace your abs tight, and pull your chin back slightly.",
+            "Press the bar directly overhead in a straight vertical line, moving your face out of the way as it passes.",
+            "Punch your head forward through your arms at the top lockout position to stabilize the load.",
+            "Lower the barbell under control back down to your front collarbone area."
+          ],
+          "posture": [
+            "Keep your glutes and core fully squeezed; this prevents dangerous over-arching of the lower back.",
+            "Your forearms must remain vertical and directly underneath the barbell throughout the bottom half.",
+            "Lock your knees completely straight; don't bend them to use leg drive."
+          ],
+          "common_mistakes": [
+            "Leaning backward excessively from the waist, turning it into an accidental incline press.",
+            "Failing to lock out the elbows fully at the top of the movement.",
+            "Bumping the bar against the chin or nose because the head path isn't cleared."
+          ],
+          "rep_guidance": "3 to 4 sets of 6 to 8 reps for a balance of shoulder mass and pressing power."
+        },
+        {
+          "key": "lateral_raise",
+          "name": "Dumbbell Lateral Raise",
+          "target_muscle": "Side (Lateral) Deltoids",
+          "equipment": "Dumbbells",
+          "steps": [
+            "Stand tall holding a dumbbell in each hand at your sides, palms facing your torso.",
+            "With a slight bend in your elbows, raise both arms out to the sides until shoulder height.",
+            "Pause briefly at the top, keeping your wrists level with or slightly below your elbows.",
+            "Lower the dumbbells back down slowly and under control."
+          ],
+          "posture": [
+            "Keep a slight, fixed bend in your elbows throughout — don't lock them straight.",
+            "Avoid shrugging your shoulders up toward your ears as you raise the weight.",
+            "Keep your torso still; don't use momentum by swinging or leaning."
+          ],
+          "common_mistakes": [
+            "Using too much weight, which forces the traps to take over instead of the side delts.",
+            "Raising the arms above shoulder height, shifting stress onto the shoulder joint.",
+            "Swinging the weight up using body momentum instead of controlled deltoid strength."
+          ],
+          "rep_guidance": "3 sets of 12 to 15 reps with a light-to-moderate weight, prioritizing strict form over load."
+        }
+      ]
+    },
+    "legs": {
+      "display_name": "Legs",
+      "nutrition_focus": "Leg day burns the most energy of any session — this is the day to prioritize carbohydrates both before (for fuel) and after (to replenish glycogen), alongside a solid protein source, since leg training recruits the most total muscle mass.",
+      "exercises": [
+        {
+          "key": "squat",
+          "name": "Barbell Back Squat",
+          "target_muscle": "Quadriceps, Glutes, Hamstrings, Core",
+          "equipment": "Barbell, Squat Rack",
+          "steps": [
+            "Set the barbell just below shoulder height and step under it, placing it across your upper back.",
+            "Unrack the bar, take two steps back, and set your feet shoulder-width apart with toes slightly flared.",
+            "Take a deep breath into your stomach, brace your core, and begin by hinging your hips back.",
+            "Lower your body until your thighs are at least parallel to the floor, keeping your chest proud.",
+            "Drive through your mid-foot to stand back up, exhaling as you clear the hardest part of the lift."
+          ],
+          "posture": [
+            "Maintain a neutral spine throughout the entire lift; don't let your lower back round at the bottom.",
+            "Keep your chest upright and head facing forward or slightly down to preserve neck alignment.",
+            "Ensure your knees track in a straight line with your toes; don't let them cave inward."
+          ],
+          "common_mistakes": [
+            "Not squatting deep enough (stopping well short of parallel thighs).",
+            "Allowing the heels to lift off the floor, shifting dangerous load onto the knee joints.",
+            "Letting the knees collapse inward when pushing out of the bottom position."
+          ],
+          "rep_guidance": "For general size, 3 to 4 sets of 8 to 12 reps. For strength, 4 to 5 sets of 5 reps."
+        },
+        {
+          "key": "leg_press",
+          "name": "Leg Press",
+          "target_muscle": "Quadriceps, Glutes, Hamstrings",
+          "equipment": "Leg Press Machine",
+          "steps": [
+            "Sit in the leg press machine with your back flat against the pad and feet shoulder-width apart on the platform.",
+            "Release the safety catches and lower the platform by bending your knees toward your chest.",
+            "Lower until your knees reach about a 90-degree angle, keeping your lower back pressed into the pad.",
+            "Push through your heels to extend your legs back to the starting position, without locking your knees out hard."
+          ],
+          "posture": [
+            "Keep your lower back flat against the pad throughout — don't let your hips round up off the seat.",
+            "Keep your knees tracking in line with your toes; don't let them cave inward.",
+            "Avoid locking your knees out completely and aggressively at the top of each rep."
+          ],
+          "common_mistakes": [
+            "Lowering the platform too far, causing the lower back to round off the pad.",
+            "Placing feet too high or too low on the platform, shifting stress unevenly onto knees or hips.",
+            "Locking the knees out hard at the top, stressing the joint."
+          ],
+          "rep_guidance": "3 to 4 sets of 10 to 15 reps — pairs well with squats as a lower-fatigue way to add extra leg volume."
+        }
+      ]
+    },
+    "rest": {
+      "display_name": "Rest Day",
+      "nutrition_focus": "On your rest day, keep protein intake steady to support ongoing muscle repair, but ease off on the extra training-day carbohydrates since you're not burning through glycogen with a workout — focus on whole foods, vegetables, and hydration.",
+      "exercises": []
+    }
+  },
+  "weekly_split": {
+    "monday": "chest",
+    "tuesday": "back",
+    "wednesday": "legs",
+    "thursday": "shoulders",
+    "friday": "biceps",
+    "saturday": "triceps",
+    "sunday": "rest"
+  }
+}

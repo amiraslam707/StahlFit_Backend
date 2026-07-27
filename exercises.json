@@ -1,0 +1,157 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "is anyone there",
+        "good morning",
+        "good evening",
+        "sup"
+      ],
+      "responses": [
+        "Hello! Ready to crush your fitness goals today?",
+        "Hey! What exercise or nutrition questions can I help you with?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "see you later",
+        "goodbye",
+        "i am leaving",
+        "thanks bye",
+        "talk to you later"
+      ],
+      "responses": [
+        "Keep training hard! Consistency is key.",
+        "Goodbye! Stay disciplined and stay hydrated."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "that helps",
+        "awesome thank you",
+        "perfect thanks"
+      ],
+      "responses": [
+        "You're very welcome!",
+        "Anytime! Let me know if you need anything else mapped out."
+      ]
+    },
+    {
+      "tag": "get_exercise_steps",
+      "patterns": [
+        "how do i do",
+        "how to perform",
+        "show me instructions for",
+        "give me a guide on",
+        "how to do a",
+        "what is the proper movement for",
+        "walk me through the steps for",
+        "how to execute a proper",
+        "teach me how to do",
+        "what is the technique for",
+        "explain how to perform a",
+        "steps for doing a",
+        "can you break down how to do"
+      ],
+      "responses": [
+        "Looking up the step-by-step instructions for you..."
+      ]
+    },
+    {
+      "tag": "get_exercise_posture",
+      "patterns": [
+        "what is the correct posture for",
+        "how should my body be aligned for",
+        "where should my feet be for",
+        "proper spine alignment for",
+        "back position during",
+        "posture tips for",
+        "correct form for",
+        "how do i position my body for",
+        "form check for",
+        "proper technique for",
+        "how should i set up for",
+        "what does good form look like for"
+      ],
+      "responses": [
+        "Checking the precise posture and alignment cues for that movement..."
+      ]
+    },
+    {
+      "tag": "get_common_mistakes",
+      "patterns": [
+        "what are the common mistakes for",
+        "what should i avoid during",
+        "bad form examples for",
+        "how do people mess up the",
+        "errors to watch out for in",
+        "what hurts my joints in",
+        "what mistakes should i avoid in",
+        "common errors when doing",
+        "what am i doing wrong in",
+        "things to avoid when performing",
+        "what causes bad form in",
+        "what am i doing wrong with my"
+      ],
+      "responses": [
+        "Pulling up the most common execution mistakes to watch out for..."
+      ]
+    },
+    {
+      "tag": "get_rep_guidance",
+      "patterns": [
+        "how many reps should i do for",
+        "sets and reps for",
+        "how many sets of",
+        "what is the rep range for",
+        "how much volume for",
+        "how many reps and sets for",
+        "ideal rep range for",
+        "how heavy should i go for",
+        "training volume for",
+        "recommended sets for",
+        "how many sets and reps of"
+      ],
+      "responses": [
+        "Calculating the optimal set and rep ranges for your target..."
+      ]
+    },
+    {
+      "tag": "get_nutrition_timing",
+      "patterns": [
+        "what should i eat before gym",
+        "what to eat after a workout",
+        "when should i take my protein shake",
+        "should i eat eggs before or after gym",
+        "intra workout meal",
+        "nutrition timing for training",
+        "what to eat during gym"
+      ],
+      "responses": [
+        "Analyzing the best nutrient timing windows for your workout..."
+      ]
+    },
+    {
+      "tag": "get_daily_diet_plan",
+      "patterns": [
+        "what should i eat on monday",
+        "give me a meal plan for training days",
+        "what to eat on rest days",
+        "day by day diet structure",
+        "what day should i eat meat"
+      ],
+      "responses": [
+        "Checking the daily macro and meal scheduling structures..."
+      ]
+    }
+  ]
+}

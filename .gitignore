@@ -1,0 +1,32 @@
+# ── Python / FastAPI backend (AI_Chat) ──────────────
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets — Gemini key + JWT secret live here
+.env
+.env.*
+
+# Local databases — don't leak auth user data/hashes
+*.db
+*.sqlite
+*.sqlite3
+
+# Python tool caches
+.pytest_cache/
+.mypy_cache/
+
+# ── Node / Expo — light safety net only;
+#    AI_Chat_UI/.gitignore already covers that folder in detail
+node_modules/
+.expo/
+.expo-shared/
+
+# ── Editor / OS ──────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────
+*.log
