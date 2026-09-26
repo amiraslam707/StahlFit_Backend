@@ -9,7 +9,7 @@
       ]
     },
     {
-      "tag": "who_are_you",
+      "tag": "who are you?",
       "patterns": ["who are you", "what are you", "what is this", "what can you do", "tell me about yourself", "who made you", "are you a bot", "are you an ai", "what do you do"],
       "responses": [
         "I'm your SteahlFit AI coach — ask me about any muscle group or exercise and I'll pull form cues, common mistakes, rep ranges, and nutrition straight from your training split.",
